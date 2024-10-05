@@ -42,14 +42,14 @@ main {
   margin-bottom: 17px;
 }
 
-.form--input {
+.form-input {
   font-family: "Karla", sans-serif;
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
 }
 
-.form--button {
+.form-button {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
   border-radius: 5px;
@@ -99,4 +99,18 @@ main {
 
 .top {
   top: 0;
+}
+
+
+
+
+.generate-button{
+      grid-column: 1 / -1;
+      font-family: "Karla", sans-serif;
+      border-radius: 5px;
+      background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+      color: white;
+      border: none;
+      cursor: pointer;
+  
 }
